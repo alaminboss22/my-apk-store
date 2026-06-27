@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mod APK Store</title>
+    <!-- Telegram WebApp SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Adsterra Ad Slot 1 (Top Banner) -->
+    <div class="ad-container" id="ad-top">
+        <!-- এখানে আপনার ১ম Adsterra Lightweight Code পেস্ট করুন -->
+        <p class="ad-placeholder">Advertisement</p>
+    </div>
+
+    <div class="app-container">
+        <!-- Admin Section (শুধুমাত্র অ্যাডমিন দেখতে পাবেন) -->
+        <div id="admin-sec" class="admin-section" style="display: none;">
+            <h3>Upload / Add Mod APK</h3>
+            <input type="text" id="apk-name" placeholder="APK Name (e.g., Free Fire Mod)">
+            <input type="text" id="apk-price" placeholder="Price or 'Free'">
+            <input type="text" id="apk-url" placeholder="Direct Download/Drive Link">
+            <button onclick="addNewApk()" class="btn-add-apk">Publish APK</button>
+        </div>
+
+        <!-- APK Grid Layout (Durger King UI Style) -->
+        <div class="grid" id="apk-grid">
+            <!-- ডাইনামিক আইটেমগুলো এখানে যুক্ত হবে -->
+        </div>
+    </div>
+
+    <!-- Adsterra Ad Slot 2 (Bottom Banner) -->
+    <div class="ad-container" id="ad-bottom">
+        <!-- এখানে আপনার ২য় Adsterra Lightweight Code পেস্ট করুন -->
+        <p class="ad-placeholder">Advertisement</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

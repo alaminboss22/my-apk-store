@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f5;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Adsterra Containers */
+.ad-container {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    background: #e2e8f0;
+    border-radius: 8px;
+    padding: 5px;
+}
+.ad-placeholder {
+    font-size: 11px;
+    color: #64748b;
+}
+
+/* Main App Container */
+.app-container {
+    flex: 1;
+}
+
+/* Admin Panel Styling */
+.admin-section {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.admin-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.admin-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+.btn-add-apk {
+    width: 100%;
+    padding: 10px;
+    background-color: #31b545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Grid Layout matching Durger King */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin: 0 auto 10px auto;
+}
+
+.card .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .price {
+    font-size: 11px;
+    color: #334155;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Durger King Style Yellow/Orange Button */
+.btn-action {
+    background-color: #f8a51d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 0;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.btn-action:active {
+    opacity: 0.8;
+}
