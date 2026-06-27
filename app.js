@@ -3,7 +3,7 @@ const tg = window.Telegram.WebApp;
 tg.expand(); // অ্যাপটি সম্পূর্ণ স্ক্রিনে খোলার জন্য
 
 // এখানে আপনার Admin Telegram ID টি দিন
-const ADMIN_TELEGRAM_ID = 123456789; // আপনার আসল আইডি দিয়ে পরিবর্তন করুন
+const ADMIN_TELEGRAM_ID = 7884258698; // আপনার আসল আইডি দিয়ে পরিবর্তন করুন
 
 // ডেমো ডেটা (প্রাথমিক অবস্থায় দেখানোর জন্য)
 let apkList = [
